@@ -13,6 +13,6 @@ export default function SignInWithGithub() {
             className="mt-4 bg-white text-black"
         >
             Login with github!
-        </button>
+        </button> 
     )
 }

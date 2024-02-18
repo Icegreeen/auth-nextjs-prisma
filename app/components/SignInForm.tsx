@@ -5,7 +5,6 @@ import { useState } from "react"
 export default function SignInForm() {
     const [ email, setEmail ] = useState<null | string>(null);
 
-    {/* redirect: false,  tira aquela tela do github  */}
     async function SignInWithEmail() {
         const signInResult = await signIn('email', {
             email: email,
@@ -28,7 +27,6 @@ export default function SignInForm() {
         });
         */}
     };
-
  
     return (
         <form action={SignInWithEmail}>
